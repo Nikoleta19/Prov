@@ -1,1 +1,17 @@
-# Prov
+[prov.cpp](https://github.com/user-attachments/files/23543799/prov.cpp)
+#include <stdio.h>
+
+int main () {
+
+ int a[10];
+ 
+ for(int i = 0 ; i < 10; i++){
+ 
+    printf("Jep numrin %d:", i+1);
+	scanf("%d", &a[i]); 
+}
+
+   return 0;
+
+}
+
